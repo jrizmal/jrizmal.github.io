@@ -1,0 +1,114 @@
+			html,body
+			{
+				height:100%;
+				
+			}
+			#vsebina ul{
+				display:table;
+				margin:0 auto;
+			}
+			h1{
+				font-family: yeezy;
+				color: #151B27;
+				text-align: center;
+			}
+			h2{
+				font-family: yeezy;
+				font-size: 1.2em;
+				color: #151B27;
+				text-align: center;
+			}
+			h2 span{
+				font-family: yeezy;
+				font-size: 1em;
+				color: #ff4c64;
+				text-align: center;
+			}
+			h3{
+				font-family: yeezy;
+				font-size: 1.2em;
+				color: #ff4c64;
+				text-align: center;
+			}
+			h4{
+				font-style: bold;
+			}
+			body{
+				padding:0;
+				margin:0 auto;
+				width: 80%;
+				text-align: center;
+				font-family: 'Georgia';
+				height: 100%;
+			}
+			@font-face{
+				font-family: yeezy;
+				src: url(yeezy_font.ttf);
+			}
+			div#meni ul{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				
+			}
+			div#meni ul li a {
+				text-decoration: none;
+				color: #1d222d;
+				display: block;
+				
+				padding: 10px;
+				
+				text-align: middle;
+			}
+			div#meni ul li {
+				display: inline;
+				font-family: 'yeezy';
+				font-size: 1.2em;
+				line-height: 40px;
+				height: 50px;
+				width: calc(100% / 3);
+				float: left;
+				text-align: center;
+			}
+			div#meni ul li a:hover {
+				background-color: #151B27;
+				color: #fff;
+			}
+			#stran{
+				width: 100%;
+				text-align: center;
+				background-color: #e5e5e5;
+				min-height: 100%;
+			}
+			#meni{
+				
+				display: table;
+				height: 50px;
+				width: 100%;
+				text-align: center;
+			}
+			#brackets{
+				
+			}
+			#vsebina{
+				margin: 0 auto;
+				text-align: center;
+				width: 90%;
+			}
+			table.sredina{
+				margin-left:auto; 
+				margin-right:auto;
+				text-align: left;
+			}
+			body#informacije li#informacije a { 
+				background-color: #151B27;
+				color: #fff; 
+			}
+			body#prijavljeni li#prijavljeni a { 
+				background-color: #151B27;
+				color: #fff; 
+			}
+			body#pravila li#pravila a { 
+				background-color: #151B27;
+				color: #fff; 
+			}
