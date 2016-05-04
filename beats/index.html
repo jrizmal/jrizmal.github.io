@@ -15,15 +15,14 @@
 			body{
 				margin: 0;
 				padding: 0;
-				background-color: #665847;
+				background-color: #F2EDD8;
 			}
 			#website{
 				margin: 0;
 				padding: 0;
-				background-color: #665847;
+				background-color: #F2EDD8;
 				height: 100%;
 			}
-			
 			#menu{
 				width: 70%;
 				margin: 0 auto;
@@ -37,7 +36,7 @@
 			#menu-list li{
 				display: block;
 				float: left;
-				background-color: #F5564A;
+				background-color: #E45641;
 				width: 25%;
 				padding: 8px 0px;
 				margin-left: 0px;
@@ -56,9 +55,9 @@
 				text-align: center;
 			}
 			.list-song{
-				width: 70%;
+				width: 80%;
 				overflow: hidden;
-				background-color: #FF9900;
+				background-color: #D1CAB9;
 				margin: 0 auto;
 				padding: 10px;
 				border-radius: 10px;
@@ -78,37 +77,40 @@
 			.video{
 				display: block;
 				float: left;
-				height: 260px;
+				height: 20%;
 				width: 45%;
 				margin: 0;
 			}
 			.lestvica-mesto{
 				font-family: 'Montserrat', sans-serif;
 				font-size: 100px;
-				margin: 0 18px;
+				margin: 0px;
 				padding: 0;
 				float: left;
 				position: relative;
 				top:50px;
 				color: #3D362D;
+				width: 10%;
 				
 			}
 			.opis{
+				display: block;
 				float: left;
 				padding-left: 25px;
+				width: 45%;
 				
 			}
 			.mesto-naslov{
 				font-family: 'Open Sans', sans-serif;
 				font-size: 1.5em;
 				color: #FEFFFD;
-				width: 100%;
+				width: 45%;
 				margin: 0 auto;
 				text-align: center;
 			}
 			.whosampled{
 				font-family: 'Open Sans', sans-serif;
-				font-size: 1.2em;
+				
 				color: #3D362D;
 				text-decoration: none;
 			}
@@ -119,6 +121,26 @@
 				width: 33%;
 				
 			}
+			header{
+				background-color: #3D362D;
+				font-size: 5em;
+				font-family: 'Montserrat', sans-serif;
+				width: 100%;
+				text-align: center;
+				
+				
+				color: #FEFFFD;
+			}
+			.stran-kategorija{
+				display: inline-block;
+				border-radius: 3px;
+				background-color: #8EDC9D;
+				padding: 0px 8px;
+			}
+			.best-beats-{
+				color: #3D362D;
+			}
+			
 			@media screen and (max-width: 600px){
 				#menu{
 					
@@ -146,38 +168,21 @@
 				}
 				.list-song{
 					width: 95%;
-					overflow: hidden;
-					background-color: #FF9900;
 					margin: 0 auto;
 					padding: 10px;
-					border-radius: 3px;
 					margin-bottom: 30px;
 				}
-				
-			
-			
 				.video{
-					display: block;
-					float: left;
-					height: 260px;
 					width: 100%;
-					margin: 0;
+					height: 30%;
 				}
 				.lestvica-mesto{
 					display: none;
-					font-family: 'Montserrat', sans-serif;
-					font-size: 100px;
-					margin: 0 18px;
-					padding: 0;
-					float:left;
-					position: relative;
-					top:50px;
-					color: #3D362D;
-
 				}
 				.opis{
 					float: left;
 					padding-left: 0px;
+					width: 100%
 
 				}
 				.mesto-naslov{
@@ -190,7 +195,7 @@
 				}
 				.whosampled{
 					font-family: 'Open Sans', sans-serif;
-					font-size: 1.2em;
+					
 					color: #3D362D;
 					text-decoration: none;
 				}
@@ -198,32 +203,21 @@
 					font-family: 'Open Sans', sans-serif;
 					font-size: 1em;
 					color: #FEFFFD;
-					width: 33%;
+					width: 45%;
 
 				}
 			}
-			header{
-				background-color: #3D362D;
-				font-size: 5em;
-				font-family: 'Montserrat', sans-serif;
-				width: 100%;
-				text-align: center;
-				
-				
-				color: #FEFFFD;
-			}
+			
 		</style>
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-		<meta name="theme-color" content="#665847">
+		<meta name="theme-color" content="#3D362D">
 	</head>
 	<body>
+		
 		<div id="website">
 			<header>
 				Beats.
 			</header>
-			
-				
-			
 			<div id="menu">
 				<ul id="menu-list">
 					<li><a href="#">New</a></li>
@@ -232,65 +226,36 @@
 					<li><a href="#">80's</a></li>
 				</ul>
 			</div>
-			
-			
 			<div id="vsebina">
-				<p id="naslov-strani">Best beats - New</p>
+				<p id="naslov-strani"><span class="best-beats-">Best beats - </span><span class="stran-kategorija">New</span></p>
 				<div id="track01" class="list-song">
-					<div class="video-contaier">
+					
 						<p class="lestvica-mesto" id="mesto01">1</p>
 						<iframe src="https://www.youtube.com/embed/r1QDOKOMDAc" frameborder="0" allowfullscreen class="video"></iframe>
 						<div class="opis" id="opis01">
 							<span class="mesto-naslov" id="naslov01">9th Wonder - Nautilus chop</span><br>
-							<p class="whosampled"><a class="whosampled" href="http://www.whosampled.com/9th-Wonder/Nautiluschop/" target="new">Whosampled</a></p>
-							<span class="description">9th Wonder is a hip hop record producer, record executive, <br>DJ, lecturer, and rapper from Durham, North Carolina, U.S...</span>
+							
+							<span class="description">9th Wonder is a hip hop record producer, record executive, DJ, lecturer, and rapper from Durham, North Carolina, U.S...</span>
+							
+							<p>
+								<a class="whosampled" href="http://www.whosampled.com/9th-Wonder/Nautiluschop/" target="new">Whosampled</a>
+							</p>
 						</div>
-					</div>
+					
 				</div>
 				<div id="track02" class="list-song">
-					<div class="video-contaier">
+					
 						<p class="lestvica-mesto" id="mesto01">2</p>
 						<iframe src="https://www.youtube.com/embed/yoYZf-lBF_U" frameborder="0" allowfullscreen class="video"></iframe>
 						<div class="opis" id="opis01">
 							<span class="mesto-naslov" id="naslov02">Mobb Deep - Shook Ones</span><br>
+							
+							<span class="description">Mobb Deep is an American hip hop duo from Queensbridge, Queens, New York, United States that consists of Havoc and Prodigy.</span>
 							<p class="whosampled"><a class="whosampled" href="http://www.whosampled.com/Mobb-Deep/Shook-Ones-Part-II/" target="new">Whosampled</a></p>
-							<span class="description">Mobb Deep is an American hip hop duo from <br>Queensbridge, Queens, New York, United States <br>that consists of Havoc and Prodigy.</span>
 						</div>
-					</div>
+					
 				</div>
-				<div id="track02" class="list-song">
-					<div class="video-contaier">
-						<p class="lestvica-mesto" id="mesto01">3</p>
-						<iframe src="https://www.youtube.com/embed/yoYZf-lBF_U" frameborder="0" allowfullscreen class="video"></iframe>
-						<div class="opis" id="opis01">
-							<span class="mesto-naslov" id="naslov02">Mobb Deep - Shook Ones</span><br>
-							<p class="whosampled"><a class="whosampled" href="http://www.whosampled.com/Mobb-Deep/Shook-Ones-Part-II/" target="new">Whosampled</a></p>
-							<span class="description">Mobb Deep is an American hip hop duo from <br>Queensbridge, Queens, New York, United States <br>that consists of Havoc and Prodigy.</span>
-						</div>
-					</div>
-				</div>
-				<div id="track02" class="list-song">
-					<div class="video-contaier">
-						<p class="lestvica-mesto" id="mesto01">4</p>
-						<iframe src="https://www.youtube.com/embed/yoYZf-lBF_U" frameborder="0" allowfullscreen class="video"></iframe>
-						<div class="opis" id="opis01">
-							<span class="mesto-naslov" id="naslov02">Mobb Deep - Shook Ones</span><br>
-							<p class="whosampled"><a class="whosampled" href="http://www.whosampled.com/Mobb-Deep/Shook-Ones-Part-II/" target="new">Whosampled</a></p>
-							<span class="description">Mobb Deep is an American hip hop duo from <br>Queensbridge, Queens, New York, United States <br>that consists of Havoc and Prodigy.</span>
-						</div>
-					</div>
-				</div>
-				<div id="track02" class="list-song">
-					<div class="video-contaier">
-						<p class="lestvica-mesto" id="mesto01">5</p>
-						<iframe src="https://www.youtube.com/embed/yoYZf-lBF_U" frameborder="0" allowfullscreen class="video"></iframe>
-						<div class="opis" id="opis01">
-							<span class="mesto-naslov" id="naslov02">Mobb Deep - Shook Ones</span><br>
-							<p class="whosampled"><a class="whosampled" href="http://www.whosampled.com/Mobb-Deep/Shook-Ones-Part-II/" target="new">Whosampled</a></p>
-							<span class="description">Mobb Deep is an American hip hop duo from <br>Queensbridge, Queens, New York, United States <br>that consists of Havoc and Prodigy.</span>
-						</div>
-					</div>
-				</div>
+				
 			</div>
 			
 		</div>
