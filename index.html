@@ -1,109 +1,53 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-        <meta name="author" content="Jaka Rizmal">
-        <meta name="description" content="Home">
-		<meta name="theme-color" content="#000000">
-		<link rel="apple-touch-icon" sizes="57x57" href="jrizmal.github.io/icons/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="jrizmal.github.io/icons/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="jrizmal.github.io/icons/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="jrizmal.github.io/icons/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="jrizmal.github.io/icons/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="jrizmal.github.io/icons/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="jrizmal.github.io/icons/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="jrizmal.github.io/icons/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="jrizmal.github.io/icons/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="jrizmal.github.io/icons/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="jrizmal.github.io/icons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="jrizmal.github.io/icons/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="jrizmal.github.io/icons/favicon-16x16.png">
-		<link rel="manifest" href="jrizmal.github.io/icons/manifest.json">
-		<link rel="icon" href="jrizmal.github.io/icons/favicon.ico">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="jrizmal.github.io/icons/ms-icon-144x144.png">
-		
-		
-		<title>jrizzla.exe</title>
-		
-		<style>
-			@font-face {
-				font-family: 'hacker';
-				src: url('typewcond_bold.otf');
-			}
-			body{
-				margin: 0;
-				padding: 0px;
-				background: #000;
-			}
-			.meni ul{
-				
-				list-style: none;
-				background-colour: #00ff00;
-				text-align: center;
-				padding: 0;
-				margin: 25;
-				width: 400px;
-			}
-			.meni li{
-				font-family: 'hacker';
-				font-size: 1.2em;
-				line-height: 40px;
-				height: 40px;
-			}
-			.meni a{
-				text-decoration: none;
-				color: #fff;
-				display: block;
-				transition: .1s background-color;
-				
-			}
-			.meni a:hover {
-				background-color: #fff;
-				color: #000;
-			}
-			h1{
-				color: #fff;
-				font-family: hacker;
-				
-			}
-			.test{
-				background-color: white;
-			}
-			@media screen and (max-width: 600px){
-				body{
-					padding: 0;
-					padding-top: 50px;
-					margin: 0;
-				}
-				.meni ul{
-					padding: 0;
-					width: 100%;
-					margin: 0;	
-				}
-				li{
-					width: 100%;
-					margin: 0;
-				}
-				
-			}
-		</style>
-		
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	</head>
-	<body>
-		<div class="meni" align="center">
-			<h1>jrizzla personal website</h1>
-			<ul>
-				<li><a href="/osebna/" target="_top">osebna</a></li>
-				<li><a href="/hraber/" target="_top">hraber</a></li>
-				<li><a href="http://lavalan.jrizzla.com" target="_top">lavaLan</a></li>
-				<li><a href="/reaction-test/" target="_top">Test reakcij - 1. JavaScript projekt</a></li>
-				<li><a href="beats/" target="_top">Beats.</a></li>
-				<li><a href="#" target="_top">more comming soon</a></li>
-				
-			</ul>
-			<h1>u've been hacked lol</h1>
-		</div>
-	</body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="static/image/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/image/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/image/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/image/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/image/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/image/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/image/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/image/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/image/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="static/image/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/image/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/image/favicon-16x16.png">
+    <link rel="manifest" href="static/image/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/image/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- End icons -->
+    <title>Jaka Rizmal</title>
+    <link rel="stylesheet" href="style/main.css">
+    <script src="script/terminal.js"></script>
+    <script src="script/main.js"></script>
+</head>
+
+<body>
+    <h1>Hello world!</h1>
+    <p>
+        My name is <b>Jaka Rizmal</b> and I'm a developer.
+        <br>
+        You can talk to me at <a href="mailto:jaka@rizmal.si">jaka@rizmal.si</a>
+        <br>
+        Find me on social media at
+    <ul>
+        <li><a href="https://www.linkedin.com/in/jaka-rizmal-b5b6a4156/">LinkedIn</a></li>
+        <li><a href="https://github.com/jrizmal">GitHub</a></li>
+        <li><a href="https://medium.com/@jrizmal">Medium</a></li>
+        <li><a href="http://instagram.com/jrizmalj">Instagram</a></li>
+    </ul>
+    </p>
+    <div id="terminal-window"></div>
+</body>
+
 </html>
